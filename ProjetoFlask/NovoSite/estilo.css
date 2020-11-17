@@ -1,0 +1,260 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://data.1freewallpapers.com/download/lawn-football-field-marking-1680x1260.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+img{
+    size: 10px;
+}
+
+#container{
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    -webkit-background: linear-gradient(#e8f1f2, #1b98e0);
+    -moz-background: linear-gradient(#e8f1f2, #1b98e0);
+    -o-background: linear-gradient(#e8f1f2, #1b98e0);
+    -ms-background: linear-gradient(#e8f1f2, #1b98e0);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 13px;
+    color: #13293D;
+    background: white url(../NovoSite/static/lupa.png) right center no-repeat;
+    border: 1px solid #13293D;
+}
+
+.submit{
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: #13293D;
+    border: none;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu {
+    height: 70px;
+    background: rgba(205, 206, 231, 0.3);
+    padding: 7px 0;    
+    
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid;
+}
+
+#menu ul li:last-child{
+    border-right: none
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #8ccbf0;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a:active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #13293D;
+}
+
+#inicial h3{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E8F1F2;
+
+}
+
+#inicial p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: -70px 0px 100px 0px;
+}
+
+form{
+    color: white;
+    margin: 12% auto;
+    width: 19em;
+    text-align: center;
+    position: relative;
+    -webkit-animation: moveDown .3s;
+    -moz-animation: moveDown .3s;
+    animation: moveDown .3s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+input {
+    color: #ffffff;
+    font-size: 1.5em;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none; 
+    border-radius: 0; 
+    border-top: none;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #bbb;
+    background: transparent;
+    display: block;
+    height: 2em;
+    width: 12em;
+    margin-bottom: 5%;
+    padding: 0 3%;
+    position: relative;
+    z-index: 0;
+    -webkit-transition: border .25s;
+    -moz-transition: border .25s;
+    -o-transition: border .25s;
+    transition: border .25s;
+  }
+
+#introduction h3{
+    font-size: 45px;
+    color: #1b98e0;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #628f19;
+    text-align: justify;
+    
+}
+
+.sidebar{
+    height: 550px;
+    width: 450px;
+    /* border: 1px solid #baf46f; 
+    border-radius: 20px; */
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    font-size: 30px;
+    color: #74c4f3;
+}
+
+.sidebar h6{
+    font-size: 20px;
+    color: #74c4f3;
+    margin: -10px 0px 5px 0px;
+}
+
+.sidebar p{
+    color: #E8F1F2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(153, 153, 160, 0.8);
+    padding: 20px 10px 20px 10px;
+}
+
+
+#left-sidebar{
+    float: left;
+}
+
+#right-sidebar{
+    float: right;
+}
+
+#players{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.8);
+    margin: 0px 0px 30px 0px;
+}
+
+#plahyers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#players tr:hover {
+    background-color: rgb(194, 191, 191);
+}
+
+#players td, #players th{
+    border: 1px solid #ddd;
+    padding: 4px;
+    margin: auto;
+}
+
+#players th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #006494;
+    color: white;
+}
+.footer{
+    height: 100px;
+    background:rgba(153, 153, 160, 0.9);
+    padding: 10px 30px;
+    margin-top: 15px;
+    position: static;
+}
+
+.footer div h4{
+    margin: 10px 0px 0px 0px;
+    color: #000000;
+    
+}
+
+.footer div p{
+    font-size: x-small;
+    margin-top: 0px;
+    color: #000000;
+}
